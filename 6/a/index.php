@@ -8,12 +8,6 @@ $myQuery = " SELECT * FROM product INNER JOIN cashier ON product.idCashier = cas
 
 $theData = mysqli_query($conn, $myQuery);
 
-// var_dump($test);
-
-// while ($row = mysqli_fetch_assoc($theData)) {
-
-//     echo $row["nama_category"];
-// }
 ?>
 
 

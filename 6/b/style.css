@@ -1,0 +1,118 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.dataTable {
+    min-width: 400px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.dataTable thead tr {
+    background-color: #CECECE;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.dataTable th,
+.dataTable td {
+    padding: 12px 15px;
+}
+
+.dataTable tbody td {
+    border-bottom: 1px solid #ddd;
+}
+
+.dataTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.dataTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.dataTable tbody tr.activeRow {
+    font-weight: bolder;
+    background-color: #009879;
+}
+
+.options {
+    font-size: 1.5em;
+}
+
+.options a {
+    padding: 5px;
+}
+
+.logopng {
+    width: 100px;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+}
+
+.hedContainer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    box-shadow: 9px 10px 6px -9px rgba(0,0,0,0.75);
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.hedName {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.hedName .Arcatxt {
+    color: palevioletred;
+}
+
+.hedName .cofeTxt {
+    margin-left: 7px;
+}
+.mybtn {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.logoNtxt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+
+button {
+    border: 1px solid palevioletred;
+    background: palevioletred;
+    color: white;
+    width: 80px;
+    height: 34px;
+    border-radius: 4px;
+    font-size: 10pt;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 1px 1px 12px -5px rgba(0,0,0,0.75);
+}
